@@ -1,0 +1,1 @@
+# nextjs-bff-aggregation-pattern
