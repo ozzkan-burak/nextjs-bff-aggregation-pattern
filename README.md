@@ -58,19 +58,14 @@ Simulation: Mock Service Layer (to simulate latency and microservice behavior)
 ### 🚀 Getting Started
 Clone the repository:
 
-Bash
-
 git clone [https://github.com/ozzkan-burak/nextjs-bff-aggregation-pattern.git](https://github.com/ozzkan-burak/nextjs-bff-aggregation-pattern.git)
-Install dependencies:
 
-Bash
+Install dependencies:
 
 npm install
 # or
 pnpm install
 Run the laboratory:
-
-Bash
 
 npm run dev
 Explore the difference:
