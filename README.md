@@ -75,3 +75,19 @@ Visit /dashboard/client to see the "Waterfall" approach.
 Visit /dashboard/bff to see the "Aggregated" approach.
 
 This project is a Proof of Concept (POC) for scalable frontend architectures.
+
+### 📊 Benchmark Results (The Proof)
+
+I conducted a side-by-side comparison simulating high network latency (User: 300ms, Orders: 800ms, Recs: 500ms).
+
+| Metric | ❌ Direct Fetch (Waterfall) | ✅ BFF Pattern (Aggregated) | 🚀 Improvement |
+| :--- | :--- | :--- | :--- |
+| **Total Wait Time** | **~1794 ms** | **~817 ms** | **2.2x Faster** |
+| **Requests** | 3 Round-trips | 1 Round-trip | Less Overhead |
+| **Payload Size** | Full JSON | Filtered JSON | Bandwidth Saver |
+
+#### Visual Evidence
+> *Screenshot from the laboratory demo showing the exact timing difference.*
+
+![Benchmark Comparison](docs/benchmark-proof.png) 
+*(Note: Replace `docs/benchmark-proof.png` with the actual path to your uploaded image)*
