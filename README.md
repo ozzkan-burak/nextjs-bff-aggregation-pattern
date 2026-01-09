@@ -89,5 +89,5 @@ I conducted a side-by-side comparison simulating high network latency (User: 300
 #### Visual Evidence
 > *Screenshot from the laboratory demo showing the exact timing difference.*
 
-![Benchmark Comparison](docs/benchmark-proof.png) 
+![Benchmark Comparison](nextjs-bff-aggregation-pattern/docs/benchmark-proof.png) 
 *(Note: Replace `docs/benchmark-proof.png` with the actual path to your uploaded image)*
